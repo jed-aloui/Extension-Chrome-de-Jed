@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Résumé de page",
+  "version": "1.0.0",
+  "description": "Résume simplement le contenu de la page que vous consultez.",
+  "action": { "default_popup": "index.html" },
+  "background": { "service_worker": "background.js", "type": "module" },
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": []
+}
